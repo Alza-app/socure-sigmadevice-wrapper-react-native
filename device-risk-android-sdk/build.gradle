@@ -1,2 +1,0 @@
-configurations.maybeCreate("default")
-artifacts.add("default", file('device-risk-android-sdk-3.0.0.aar'))
