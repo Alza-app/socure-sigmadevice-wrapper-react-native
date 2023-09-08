@@ -161,7 +161,7 @@ repositories {
 dependencies {
   // noinspection GradleDynamicVersion
   implementation fileTree(dir: "libs", include: ["*.jar"])
-  // implementation files('libs/device-risk-sdk-debug.aar')
+  api project(':device-risk-android-sdk')
   api 'androidx.appcompat:appcompat:1.2.0'
   api "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
   api "androidx.lifecycle:lifecycle-extensions:2.2.0"
